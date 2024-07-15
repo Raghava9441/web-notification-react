@@ -1,0 +1,68 @@
+{
+  "name": "web-notification-react",
+  "version": "1.0.1",
+  "description": "Web Notification component for React",
+  "main": "dist/webNotification.umd.js",
+  "module": "dist/webNotification.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite --config vite.config.ts --port 3000",
+    "build": "vite build --config vite.config.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module",
+  "author": "Raghava Reddy",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.12",
+    "vite-plugin-dts": "^3.9.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "react",
+    "web",
+    "notification",
+    "component",
+    "ui"
+  ],
+  "homepage": "https://github.com/username/web-notification-react#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/web-notification-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/web-notification-react/issues"
+  },
+  "contributors": [
+    {
+      "name": "Raghava Reddy",
+      "email": "email@example.com",
+      "url": "https://github.com/username"
+    }
+  ],
+  "funding": {
+    "type": "individual",
+    "url": "https://patreon.com/username"
+  }
+}
